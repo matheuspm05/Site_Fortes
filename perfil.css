@@ -1,0 +1,150 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #001d43;
+  color: white;
+}
+
+
+header {
+  background-color: #a9a9a9;
+  color: white;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+header .logo img {
+  height: 50px;
+}
+
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li:last-child {
+  margin-right: 0;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header nav ul li a.active {
+  font-weight: bold;
+}
+
+
+main {
+  padding: 20px;
+  display: flex;
+  align-content: center;
+  margin-left: 400px;
+}
+
+.user-profile {
+  display: flex;
+  gap: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  color: #000;
+}
+
+
+.user-photo {
+  text-align: center;
+  margin-top: 150px;
+  
+}
+
+.user-photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+.upload-button {
+  margin-top: 10px;
+  background-color: #001d43;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.user-info h2 {
+  background-color: #001d43;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user-form label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-form input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  background-color: #ffbf00;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  align-self: flex-end;
+}
+
+
+.user-id {
+  align-self: flex-start;
+}
+
+.id-number {
+  background-color: #001d43;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #a9a9a9;
+  color: white;
+  text-align: center;
+  padding: 20px ;
+  margin-top: 50px;
+
+}

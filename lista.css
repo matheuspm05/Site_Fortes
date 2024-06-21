@@ -1,0 +1,103 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #001D43;
+    color: white;
+}
+
+
+header {
+    background-color: #A9A9A9;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header .logo img {
+    height: 50px;
+}
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    margin: 0;
+}
+
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a.active {
+    font-weight: bold;
+}
+
+
+main {
+    padding: 40px;
+}
+
+
+.user-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    color: #000;
+}
+
+.user-list .user-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.user-list .user-item:last-child {
+    border-bottom: none;
+}
+
+
+.user-list .user-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.user-details {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.user-id {
+    background-color: #001D43;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #A9A9A9;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
